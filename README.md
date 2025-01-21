@@ -50,7 +50,12 @@ src/
 |-- index.js
 |-- App.css
 
-![image](https://github.com/user-attachments/assets/cd4ecdd2-54d2-489a-ae0f-bde84dfb188e)
+HOME PAGE 
+https://github.com/Satwik-avs/user-management-dashboard/blob/074991b7fb42c92084250e0434399d827c8fdff6/home.png
+ADD FORM
+https://github.com/Satwik-avs/user-management-dashboard/blob/074991b7fb42c92084250e0434399d827c8fdff6/add.png
+EDIT FORM
+https://github.com/Satwik-avs/user-management-dashboard/blob/074991b7fb42c92084250e0434399d827c8fdff6/edit.png
 
 Challenges Faced
 1. Handling the components especically the user data. It is for me the first i have taken the third party and included the app so it is a new learning through this project 
