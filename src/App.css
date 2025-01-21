@@ -1,0 +1,137 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+  margin: 20px;
+  padding: 0;
+}
+/* Container Styles */
+.container { 
+  max-width: 800px; 
+  margin: 20px auto; 
+  padding: 20px; 
+  background-color: #fff; 
+  border-radius: 8px; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+  display: flex; 
+  flex-direction: column;
+  align-items: center; 
+}
+/* Header styles */
+h1 {
+  text-align: center;
+  color: #333;
+}
+h2{
+  color: #333;
+}
+/* table styles */
+table {
+ 
+  border-collapse: collapse;
+  position: center;
+ 
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 10px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Button Styles */
+button {
+  margin-right: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.add-button {
+  background-color: #4CAF50;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.edit-button {
+  background-color: #FFA500;
+  color: white;
+}
+
+.delete-button {
+  background-color: #f44336;
+  color: white;
+}
+
+/* Form Styles */
+form {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form .error {
+  color: red;
+  font-size: 12px;
+}
+
+form button {
+  align-self: flex-start;
+  background-color: red;
+}
+
+.success-message {
+  color: green;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+/* Pagination Styles */
+.pagination {
+  display: flex;
+  padding-top: 10px;
+  gap: 10px;
+}
+
+.pagination button {
+  padding: 5px 10px;
+  border: 1px solid #4CAF50cc;
+  background-color: #4CAF50;
+  cursor: pointer;
+}
+
+.pagination button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+/* Button Container Styles */
+.button-container {
+  display: flex;
+  gap: 10px;
+}
+
+.button-container button {
+  margin-right: 0; 
+}
