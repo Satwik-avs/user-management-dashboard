@@ -26,7 +26,7 @@ A simple web application that allows users to view, add, edit, and delete user d
 1. Clone the repository:
 
 
-git clone https://github.com/yourusername/user-management-dashboard.git
+git clone https://github.com/Satwik-avs/user-management-dashboard.git
 
 2. Navigate to the project directory:
 cd user-management-dashboard
