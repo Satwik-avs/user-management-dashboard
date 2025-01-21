@@ -52,8 +52,10 @@ src/
 
 HOME PAGE 
 ![Home](https://github.com/Satwik-avs/user-management-dashboard/blob/074991b7fb42c92084250e0434399d827c8fdff6/home.png)
+
 ADD FORM
 ![add-form](https://github.com/Satwik-avs/user-management-dashboard/blob/074991b7fb42c92084250e0434399d827c8fdff6/add.png)
+
 EDIT FORM
 ![edit-form](https://github.com/Satwik-avs/user-management-dashboard/blob/074991b7fb42c92084250e0434399d827c8fdff6/edit.png)
 
