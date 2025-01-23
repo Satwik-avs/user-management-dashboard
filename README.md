@@ -26,7 +26,7 @@ A simple web application that allows users to view, add, edit, and delete user d
 1. Clone the repository:
 
 
-git clone https://github.com/yourusername/user-management-dashboard.git
+git clone https://github.com/Satwik-avs/user-management-dashboard.git
 
 2. Navigate to the project directory:
 cd user-management-dashboard
@@ -50,6 +50,14 @@ src/
 |-- index.js
 |-- App.css
 
+HOME PAGE 
+![Home](https://github.com/Satwik-avs/user-management-dashboard/blob/074991b7fb42c92084250e0434399d827c8fdff6/home.png)
+
+ADD FORM
+![add-form](https://github.com/Satwik-avs/user-management-dashboard/blob/074991b7fb42c92084250e0434399d827c8fdff6/add.png)
+
+EDIT FORM
+![edit-form](https://github.com/Satwik-avs/user-management-dashboard/blob/074991b7fb42c92084250e0434399d827c8fdff6/edit.png)
 
 Challenges Faced
 1. Handling the components especically the user data. It is for me the first i have taken the third party and included the app so it is a new learning through this project 
