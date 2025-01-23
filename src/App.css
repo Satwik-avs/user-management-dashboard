@@ -5,6 +5,7 @@ body {
   margin: 20px;
   padding: 0;
 }
+
 /* Container Styles */
 .container { 
   max-width: 800px; 
@@ -17,20 +18,21 @@ body {
   flex-direction: column;
   align-items: center; 
 }
+
 /* Header styles */
-h1 {
+h1, h2 {
   text-align: center;
   color: #333;
 }
-h2{
+
+h2 {
   color: #333;
 }
-/* table styles */
+
+/* Table styles */
 table {
- 
   border-collapse: collapse;
-  position: center;
- 
+  width: 100%;
 }
 
 table, th, td {
@@ -79,8 +81,6 @@ button:hover {
 form {
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
-  align-content: flex-start;
   gap: 10px;
   margin-bottom: 20px;
 }
@@ -98,25 +98,43 @@ form .error {
 
 form button {
   align-self: flex-start;
-  background-color: red;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
 }
 
-.success-message {
-  color: green;
+/* Success/Failure Message Styles */
+.notification {
+  padding: 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  text-align: center;
   font-size: 14px;
-  margin-bottom: 10px;
+}
+
+.notification.success {
+  color: #155724;
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+}
+
+.notification.error {
+  color: #721c24;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
 }
 
 /* Pagination Styles */
 .pagination {
   display: flex;
-  padding-top: 10px;
   gap: 10px;
+  padding-top: 10px;
 }
 
 .pagination button {
   padding: 5px 10px;
-  border: 1px solid #4CAF50cc;
+  border: 1px solid #4CAF50;
   background-color: #4CAF50;
   cursor: pointer;
 }
@@ -134,4 +152,76 @@ form button {
 
 .button-container button {
   margin-right: 0; 
+}
+
+/* Additional Styling for Success Message */
+.success-message {
+  color: #28a745; 
+  background-color: #d4edda; 
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #c3e6cb;
+  margin-bottom: 15px;
+  font-size: 14px;
+  text-align: center;
+}
+/* Global Button Styles */
+button {
+  margin-right: 10px;
+  padding: 8px 15px; /* Adjusted padding for better appearance */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+  font-size: 14px;
+}
+
+/* Hover Effect for All Buttons */
+button:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+/* Add Button (Green) */
+.add-button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.add-button:hover {
+  background-color: #45a049; /* Slightly darker green on hover */
+}
+
+/* Edit Button (Orange) */
+.edit-button {
+  background-color: #FFA500;
+  color: white;
+}
+
+.edit-button:hover {
+  background-color: #e68900; /* Slightly darker orange on hover */
+}
+
+/* Delete Button (Red) */
+.delete-button {
+  background-color: #f44336;
+  color: white;
+}
+
+.delete-button:hover {
+  background-color: #da190b; /* Slightly darker red on hover */
+}
+
+/* Form Submit Button (Optional) */
+form button {
+  align-self: flex-start;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  border: none;
+}
+
+form button:hover {
+  background-color: #45a049;
 }
